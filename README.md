@@ -40,7 +40,7 @@ This project applies **Natural Language Processing (NLP)** techniques to analyze
 
 The focus is on understanding sentiment trends and evaluating the performance of various machine learning models.
 
----## **Introduction**
+---**Introduction**
 
 Social media sentiment analysis is a powerful tool to understand public opinion by analyzing the emotional tone behind text data. In this project, social media posts were classified into three sentiment categories: **Positive**, **Negative**, and **Neutral**. Using a labeled dataset sourced from Kaggle, the text data was preprocessed and key features were extracted using techniques like **TF-IDF**. Machine learning models, including **Logistic Regression** and advanced **Transformer-based models**, were applied to classify the sentiments effectively. 
 
