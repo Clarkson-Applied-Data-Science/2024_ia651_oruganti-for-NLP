@@ -1,16 +1,34 @@
 # **Social Media Sentiment Analysis**
 
 ## **Table of Contents**
-1. [**Project Overview**](#project-overview)
-2. [**Importance**](#importance)
-3. [**Process and Methodology**](#process-and-methodology)
-4. [**Results and Findings**](#results-and-findings)
-5. [**Example Prediction**](#example-prediction)
-6. [**Limitations**](#limitations)
-7. [**Future Work**](#future-work)
-8. [**Contributing**](#contributing)
-9. [**License**](#license)
-10. [**Acknowledgments**](#acknowledgments)
+
+1. [**Introduction**](#introduction)  
+2. [**Dataset Description**](#dataset-description)  
+3. [**Exploratory Data Analysis (EDA)**](#exploratory-data-analysis-eda)  
+   - [Sentiment Distribution](#sentiment-distribution)  
+   - [Platform-Based Sentiment Distribution](#platform-based-sentiment-distribution)  
+   - [Engagement Analysis (Likes and Retweets)](#engagement-analysis-likes-and-retweets)  
+   - [Text-Based Analysis](#text-based-analysis)  
+4. [**Model Training**](#model-training)  
+   - [Logistic Regression](#logistic-regression)  
+   - [Transformer Model](#transformer-model)  
+   - [LSTM Model](#lstm-model)  
+5. [**Model Evaluation**](#model-evaluation)  
+   - [Logistic Regression Results](#logistic-regression-results)  
+   - [Transformer Model Results](#transformer-model-results)  
+   - [LSTM Model Results](#lstm-model-results)  
+6. [**Comparison of Models**](#comparison-of-models)  
+7. [**Conclusion**](#conclusion)  
+8. [**Future Work**](#future-work)  
+
+
+### **Libraries Used**
+- **Data manipulation**: `pandas`, `numpy`
+- **Visualization**: `matplotlib`, `seaborn`
+- **Machine Learning**: `sklearn` (Logistic Regression, scaling, train-test split)
+- **NLP**: `TfidfVectorizer` and Transformer models (`transformers`)
+
+---
 
 ## **Project Overview**
 
@@ -243,7 +261,6 @@ The Transformer model demonstrated consistent improvement in validation loss acr
 
 ---
 
-To include the training output screenshot, replace `<insert-image-link-here>` with the appropriate image link:
 
 ![Transformer Model Training Output](<insert-image-link-here>)
 ## **Transformer Model Evaluation**
@@ -377,20 +394,10 @@ Below are sample predictions from the Transformer model, showcasing its ability 
 
 ---
 
-Let me know if you need any more refinements or want to add additional details! 
-
 
 ### **Conclusion**
 
 The Transformer-based model demonstrates good performance for Positive and Neutral sentiments while highlighting areas for improvement in Negative sentiment classification. This output can be further refined by tuning the model or adding more training data.
-
-Replace `<insert-confusion-matrix-image-link-here>` with the appropriate path or URL for the confusion matrix image.
-
-
-
-To include the images, replace `<insert-image-link-here>` with the corresponding image URLs or paths. Let me know if you'd like help hosting the images or further refining this script!
-
-
 
 
 
