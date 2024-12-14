@@ -12,6 +12,23 @@
 9. [**License**](#license)
 10. [**Acknowledgments**](#acknowledgments)
 
+## **Project Overview**
+
+This project applies **Natural Language Processing (NLP)** techniques to analyze sentiment in text data. It includes:
+- Data preprocessing
+- Exploratory Data Analysis (EDA)
+- Model building
+- Evaluation
+
+The focus is on understanding sentiment trends and evaluating the performance of various machine learning models.
+
+---## **Introduction**
+
+Social media sentiment analysis is a powerful tool to understand public opinion by analyzing the emotional tone behind text data. In this project, social media posts were classified into three sentiment categories: **Positive**, **Negative**, and **Neutral**. Using a labeled dataset sourced from Kaggle, the text data was preprocessed and key features were extracted using techniques like **TF-IDF**. Machine learning models, including **Logistic Regression** and advanced **Transformer-based models**, were applied to classify the sentiments effectively. 
+
+Exploratory Data Analysis (EDA) provided insights into the sentiment distribution, platform trends, and user engagement metrics like likes and retweets. This project highlights how sentiment influences social media activity and demonstrates the application of Natural Language Processing (NLP) techniques to uncover actionable insights. The results offer valuable information for businesses, marketers, and researchers to understand audience sentiment in real time.
+
+
 ---
 
 ## **Dataset Description**
