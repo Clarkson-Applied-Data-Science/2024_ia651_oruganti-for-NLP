@@ -14,6 +14,47 @@
 
 ---
 
+## **Dataset Description**
+
+This dataset was sourced from **Kaggle** and contains **732 rows and 15 columns** with attributes such as text content, sentiment, timestamps, user details, and engagement metrics (likes and retweets).
+
+Key columns include:
+- **Text**: The social media post content.
+- **Sentiment**: Classified as Positive, Negative, or Neutral.
+- **Platform**: The social media platform of origin (e.g., Twitter, Instagram).
+- **Retweets & Likes**: Engagement metrics.
+
+- ### **Columns**
+- **Text**: The content of the social media post.
+- **Sentiment**: The sentiment classification of the post (Positive, Negative, or Neutral).
+- **Timestamp**: The date and time of the post.
+- **User**: The username of the individual who made the post.
+- **Platform**: The platform where the post was made (e.g., Twitter, Instagram, Facebook).
+- **Hashtags**: Hashtags associated with the post.
+- **Retweets**: The number of retweets (if applicable).
+- **Likes**: The number of likes the post received.
+- **Country**: The country where the post originated.
+- **Year, Month, Day, Hour**: Additional temporal attributes derived from the timestamp.
+
+### **Dataset Details**
+- **Total Rows**: 732
+- **Total Columns**: 15
+- **Missing Values**: None
+
+The dataset is complete with **no missing values**.
+
+### **Sample Data**
+| **Text**                                      | **Sentiment** | **Timestamp**         | **User**       | **Platform** | **Hashtags**         | **Retweets** | **Likes** | **Country**   | **Year** | **Month** | **Day** | **Hour** |
+|-----------------------------------------------|---------------|-----------------------|----------------|--------------|-----------------------|--------------|-----------|--------------|----------|-----------|---------|----------|
+| Enjoying a beautiful day at the park!         | Positive      | 2023-01-15 12:30:00  | User123        | Twitter      | #Nature #Park         | 15           | 30        | USA          | 2023     | 1         | 15      | 12       |
+| Traffic was terrible this morning.            | Negative      | 2023-01-15 08:45:00  | CommuterX      | Twitter      | #Traffic #Morning     | 5            | 10        | Canada       | 2023     | 1         | 15      | 8        |
+| Just finished an amazing workout! 💪          | Positive      | 2023-01-15 15:45:00  | FitnessFan     | Instagram    | #Fitness #Workout     | 20           | 40        | USA          | 2023     | 1         | 15      | 15       |
+| Excited about the upcoming weekend getaway!   | Positive      | 2023-01-15 18:20:00  | AdventureX     | Facebook     | #Travel #Adventure    | 8            | 15        | UK           | 2023     | 1         | 15      | 18       |
+| Trying out a new recipe for dinner tonight.   | Neutral       | 2023-01-15 19:55:00  | ChefCook       | Instagram    | #Cooking #Food        | 12           | 25        | Australia    | 2023     | 1         | 15      | 19       |
+
+
+
+
 ## **Project Overview**
 
 This project applies **Natural Language Processing (NLP)** techniques to analyze sentiment in text data. It includes:
