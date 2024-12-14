@@ -121,7 +121,7 @@ This project produced a variety of visualizations and insights into sentiment di
 The dataset's sentiment distribution shows the prevalence of positive, negative, and neutral sentiments across the social media posts.
 
 
-![NLP Model](images/NLP_1.png)
+![Sentiment distribution](images/NLP_1.png)
 
 
 ---
