@@ -129,63 +129,63 @@ The dataset's sentiment distribution shows the prevalence of positive, negative,
 ### **2. Sentiment Distribution Across Platforms**
 This chart highlights how different platforms (e.g., Twitter, Instagram, Facebook) handle sentiment trends.
 
-![Sentiment Distribution Across Platforms](<insert-image-link-here>)
+![Sentiment Distribution Across Platforms](NLP_2.png)
 
 ---
 
 ### **3. Top 20 Sentiments by Average Retweets**
 The visualization shows which sentiments lead to higher average retweets, offering insights into user engagement based on sentiment tone.
 
-![Top 20 Sentiments by Average Retweets](<insert-image-link-here>)
+![Top 20 Sentiments by Average Retweets](NLP_3.png)
 
 ---
 
 ### **4. Top 20 Sentiments by Average Likes**
 This chart displays the top 20 sentiments by average likes, providing insights into which sentiments generate higher user interactions.
 
-![Top 20 Sentiments by Average Likes](<insert-image-link-here>)
+![Top 20 Sentiments by Average Likes](NLP_4.png)
 
 ---
 
 ### **5. Refined Sentiment Distribution**
 The refined sentiment distribution groups the data into three categories—positive, negative, and neutral—offering a clear overview of overall sentiment trends.
 
-![Refined Sentiment Distribution](<insert-image-link-here>)
+![Refined Sentiment Distribution](NLP_5.png)
 
 ---
 
 ### **6. Word Frequency**
 The most common words across all posts are visualized, providing insights into the textual content and popular terms used in the dataset.
 
-![Top 20 Most Common Words](<insert-image-link-here>)
+![Top 20 Most Common Words](NLP_6.png)
 
 ---
 
 ### **7. Word Cloud**
 The word cloud represents the frequency of words in the dataset in a visually appealing format, highlighting frequently used words in larger fonts.
 
-![Word Cloud of Cleaned Text](<insert-image-link-here>)
+![Word Cloud of Cleaned Text](NLP_7.png)
 
 ---
 
 ### **8. Distribution of Text Lengths**
 The distribution of text lengths indicates the frequency of posts of different lengths, which is useful for understanding the dataset's content structure.
 
-![Distribution of Text Lengths](<insert-image-link-here>)
+![Distribution of Text Lengths](NLP_8.png)
 
 ---
 
 ### **9. Average Text Length by Sentiment**
 This chart reveals the average text length for posts categorized by sentiment, helping identify trends in message length based on sentiment tone.
 
-![Average Text Length by Sentiment](<insert-image-link-here>)
+![Average Text Length by Sentiment](NLP_9.png)
 
 ---
 
 ### **10. Top 10 Most Frequent Words**
 The top 10 most frequently used words are visualized to show the most common themes in the dataset.
 
-![Top 10 Most Frequent Words](<insert-image-link-here>)
+![Top 10 Most Frequent Words](NLP_10.png)
 
 ---
 
@@ -195,7 +195,7 @@ The top 10 most frequently used words are visualized to show the most common the
 After preprocessing the data and performing exploratory data analysis, a **Logistic Regression model** was trained to classify sentiments into Negative, Neutral, and Positive categories. The model was evaluated using metrics such as accuracy, precision, recall, and F1-score. The results were visualized using a confusion matrix.
 
 
-![Confusion Matrix (Logistic Regression)](<insert-image-link-here>)
+![Confusion Matrix (Logistic Regression)](NLP_11.png)
 
 ### **Results**
 - **Test Accuracy**: 86.42%
@@ -222,7 +222,7 @@ The **Receiver Operating Characteristic (ROC) Curve** visualizes the trade-off b
 - **Class Neutral**: AUC = **0.93**
 - **Class Positive**: AUC = **0.95**
 
-![ROC Curve](<insert-roc-curve-image-link-here>)
+![ROC Curve](NLP_12.png)
 
 ---
 
@@ -264,7 +264,7 @@ The Transformer model demonstrated consistent improvement in validation loss acr
 ---
 
 
-![Transformer Model Training Output](<insert-image-link-here>)
+
 ## **Transformer Model Evaluation**
 
 The Transformer-based model was evaluated on a test dataset using classification metrics such as precision, recall, F1-score, and accuracy. These metrics, along with a confusion matrix and example predictions, highlight the model's performance across Positive, Neutral, and Negative sentiment categories.
@@ -288,7 +288,7 @@ The Transformer-based model was evaluated on a test dataset using classification
 
 The confusion matrix below provides a visual representation of the model's performance by showing the relationship between true and predicted labels across all sentiment categories.
 
-![Transformer Model Confusion Matrix](<insert-confusion-matrix-image-link-here>)
+![Transformer Model Confusion Matrix](NLP_13.png)
 
 ---
 
